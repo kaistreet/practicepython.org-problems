@@ -40,7 +40,7 @@ play_again = str(input('want to play again? '))
 y = ['y','yes','yup','yeah','yea','ya']
 while play_again in y:
   roshambo()
-  play_again = str(input('want to play again?'))
+  play_again = str(input('want to play again? '))
 else:
-  print('hope you had fun')
+  print('hope you had fun!')
   sys.exit()

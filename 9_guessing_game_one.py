@@ -2,7 +2,7 @@
 import random
 import sys
 def number_guess():
-  num = random.randinit(1,9)
+  num = random.randint(1,9)
   ask_number = int(input('Guess the number: '))
   if ask_number == num:
     print('exactly right')

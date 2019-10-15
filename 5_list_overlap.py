@@ -8,4 +8,4 @@ c = []
 for num in a or b:
     if num in (a and b):
         c.append(num)
-print(c)
+print(list(set(c)))

@@ -19,8 +19,8 @@ def roshambo():
   rock = ['rock','r']
   paper = ['paper','p']
   scissors = ['scissors','s']
-  rps_1 = str(input(player_1 + '! Rock, Paper or Scissors?'))
-  rps_2 = str(input(player_2 + '! Rock, Paper or Scissors?'))
+  rps_1 = str(input(player_1 + '! Rock, Paper or Scissors? '))
+  rps_2 = str(input(player_2 + '! Rock, Paper or Scissors? '))
   if ((rps_1 in rock) and (rps_2 in scissors)):
     print(player_1 + ' wins! sorry ' + player_2)
   elif ((rps_1 in paper) and (rps_2 in rock)):

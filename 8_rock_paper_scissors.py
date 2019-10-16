@@ -24,15 +24,15 @@ def roshambo():
   if ((rps_1 in rock) and (rps_2 in scissors)):
     print(player_1 + ' wins! sorry ' + player_2)
   elif ((rps_1 in paper) and (rps_2 in rock)):
-    print('')
+    print(player_1 + ' wins! sorry ' + player_2)
   elif ((rps_1 in scissors) and (rps_2 in paper)):
-    print('')
+    print(player_1 + ' wins! sorry ' + player_2)
   elif ((rps_2 in rock) and (rps_1 in scissors)):
-    print('')
+    print(player_2 + ' wins! sorry ' + player_1)
   elif ((rps_2 in paper) and (rps_1 in rock)):
-    print('')
+    print(player_2 + ' wins! sorry ' + player_1)
   elif ((rps_2 in scissors) and (rps_1 in paper)):
-    print('')
+    print(player_2 + ' wins! sorry ' + player_1)
   elif rps_1 == rps_2:
     print("it's a tie!")
 roshambo()

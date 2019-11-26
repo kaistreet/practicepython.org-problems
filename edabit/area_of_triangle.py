@@ -2,6 +2,6 @@
 def area_of_triangle():
     base = int(input('Enter base of triangle: '))
     height = int(input('Enter height of triangle: '))
-    area = base*height
+    area = 0.5*base*height
     print('Area of triangle is '+str(area)+'.')
 area_of_triangle()
